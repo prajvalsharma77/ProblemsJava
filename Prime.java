@@ -1,9 +1,9 @@
 
 public class Prime 
 {
-public static void main (String [] args)
+public static void main (String [] args) // isse hame ye samaj ata hai ki for sa phla { ata hai isPrime sa phla ata hai aur id=f statement sa phla ata hai
 {
- int n = 10000;
+ int n = 10000;  // isPrime ka baad aur break ka baad hi } band ho jata hai
 for ( int i =1 ; i<= n ; i++ )
 {
 boolean isPrime = true;
